@@ -26,6 +26,7 @@ public abstract class Unit : MonoBehaviour,
 
     private void Start()
     {
+        // Lesson 8 from implement data persistence between scenes
         if (MainManager.Instance != null)
         {
             SetColor(MainManager.Instance.TeamColor);
